@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>
+Obrazac o učeniku
+</title>
+<h1>Obrazac o učeniku</h1>
+<hr width = "70%" align = "left">
+</head>
+<body>
+
+<form>
+<table>
+<label><td>Ime: </td></label>
+<td><input type = "text" size ="30"/></td>
+<tr><label><td>Prezime: </td></label>
+<td><input type = "text" size = "30" /></td></tr>
+<tr><label><td>Lozinka: </td></label>
+<td><input type = "text"/></td></tr>
+<td>Spol: <input type = "radio" checked>Muško<input type = "radio">Žensko</td>
+<tr><td><input type = "text" value="Zagreb"></td></tr>
+</table>
+<hr width="50%" align = "left">
+
+<table>
+<tr><td><input type = "radio"> Osnovna škola</td></tr>
+<tr><td><input type = "radio" checked> Srednja škola</td></tr>
+<tr><td><input type = "radio"> Fakultet</td></tr>
+</table>
+<br>
+<table>
+
+<tr><td><input type = "checkbox" checked> Izrada web stranica</td></tr>
+<tr><td><input type = "checkbox"> Web programiranje</td></tr>
+<tr><td><input type = "checkbox"> Baze podataka</td></tr>
+</table>
+<hr width="50%" align = "left">
+
+<label for="sport">Omiljeni sport:</label>
+
+<select name="sport" id="sport">
+  <option value="nogomet">Nogomet</option>
+  <option value="rukomet" selected>Rukomet</option>
+  <option value="odbojka">Odbojka</option>
+</select>
+
+<label for="glazba">Omiljena glazba:</label>
+
+<select name="glazba" id="glazba">
+  <option value="nogomet">Pop</option>
+  <option value="rukomet">Rock</option>
+  <option value="rukomet" selected>Funky</option>
+  <option value="odbojka">Tehno</option>
+</select>
+<hr width="50%" align = "left">
+
+
+<input type="reset" value="Reset">
+<input type="submit">
+</form>
+</body>
+</html>
